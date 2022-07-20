@@ -1,0 +1,97 @@
+@import '~antd/dist/antd.css';
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.ant-card {
+  border-radius: 8px;
+}
+
+.ant-input-number-group-wrapper {
+  display: block;
+}
+
+.ant-form {
+  margin-top: 100px;
+}
+
+.ant-card-body {
+  background: #fffcf5;
+  
+}
+.ant-descriptions-row {
+  background: #ffeedd;
+}
+.ant-card-body {
+  background: #fffcf5;
+}
+
+.ant-card.primary > .ant-card-body {
+  height: 100%; 
+  width: 410px;
+}
+
+.ant-input-number-group-addon {
+  background: #f2d1c8;
+  font-weight: bold;
+  width: 100px;
+}
+
+.ant-descriptions-item-content {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.ant-descriptions.instructions .ant-descriptions-item-content {
+  font-weight: 400;
+}
+
+.ant-input-number-input {
+  text-align: center;
+}
+
+.ant-tabs-tab {
+  margin: 0 25px;
+}
+
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs > .ant-tabs-nav .ant-tabs-nav-list {
+  display: block;
+}
+
+.ant-tabs-nav-list > div:first-child {
+  margin-left: 0;
+  margin-right: 32px;
+}
+
+.instructions {
+  margin-top: 13.40px;
+  margin-bottom: 31.18px;
+}
+
+.ant-descriptions.instructions .ant-descriptions-row{
+  background: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  .ant-card.primary > .ant-card-body {
+    height: 100%;
+    width: 100%;
+  }
+}
